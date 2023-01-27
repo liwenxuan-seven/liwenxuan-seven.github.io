@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>桃木的博客</title>
   
-  
+  <subtitle>永远好奇</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-26T05:33:58.341Z</updated>
+  <updated>2023-01-27T13:21:28.770Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>桃木</name>
     
   </author>
   
@@ -18,10 +18,10 @@
   
   <entry>
     <title>img</title>
-    <link href="http://example.com/2022/12/26/img/"/>
-    <id>http://example.com/2022/12/26/img/</id>
+    <link href="http://example.com/posts/bbc2c8ac.html"/>
+    <id>http://example.com/posts/bbc2c8ac.html</id>
     <published>2022-12-26T05:32:03.000Z</published>
-    <updated>2022-12-26T05:33:58.341Z</updated>
+    <updated>2023-01-27T13:21:28.770Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ts1.cn.mm.bing.net/th/id/R-C.52dc733abb998d6af20799eac59b9a37?rik=K4XDBWQPRIZjNQ&riu=http://img.duoziwang.com/2019/03/04302034595438.jpg&ehk=/FYE3Q03fUqzZURYn0JEJlPnrd8k9Cj7crg6U9esPF4=&risl=&pid=ImgRaw&r=0"></p>]]></content>
     
@@ -40,10 +40,10 @@
   
   <entry>
     <title>prototype原型</title>
-    <link href="http://example.com/2022/12/26/prototype%E5%8E%9F%E5%9E%8B/"/>
-    <id>http://example.com/2022/12/26/prototype%E5%8E%9F%E5%9E%8B/</id>
+    <link href="http://example.com/posts/56ec4144.html"/>
+    <id>http://example.com/posts/56ec4144.html</id>
     <published>2022-12-26T05:30:41.000Z</published>
-    <updated>2022-12-26T05:31:13.723Z</updated>
+    <updated>2023-01-27T13:21:28.776Z</updated>
     
     <content type="html"><![CDATA[<h2 id="原型（prototype）"><a href="#原型（prototype）" class="headerlink" title="原型（prototype）"></a>原型（prototype）</h2><ol><li><p>函数的prototye属性 </p><ol><li>每个函数都有一个prototype属性，它默认指向一个object空对象（原型对象）</li><li>原型对象中有一个属性constructor，它指向函数对象 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title class_">Data</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">construct</span>===<span class="title class_">Data</span>)<span class="comment">//true</span></span><br></pre></td></tr></table></figure></li></ol></li><li><p>给原型对象添加属性（一般是方法）</p><ol><li>作用：函数的所有实例对象自动拥有原型中的属性（方法）</li></ol></li></ol>]]></content>
     
@@ -63,10 +63,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/12/26/hello-world/"/>
-    <id>http://example.com/2022/12/26/hello-world/</id>
+    <link href="http://example.com/posts/4a17b156.html"/>
+    <id>http://example.com/posts/4a17b156.html</id>
     <published>2022-12-26T03:11:13.004Z</published>
-    <updated>2022-12-26T03:11:13.004Z</updated>
+    <updated>2023-01-27T13:21:28.773Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
