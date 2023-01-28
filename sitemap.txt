@@ -1,6 +1,0 @@
-http://example.com/posts/56ec4144.html
-http://example.com/posts/4a17b156.html
-http://example.com/posts/bbc2c8ac.html
-http://example.com/
-http://example.com/tags/%E5%9B%BE%E7%89%87/
-http://example.com/tags/javascript/
